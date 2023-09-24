@@ -1,3 +1,4 @@
+@charset "UTF-8";
 .texto-titulo {
   font-family: "Playfair Display SC", serif;
   font-size: 48px;
@@ -44,11 +45,11 @@ a:hover {
 }
 
 nav {
-  background-color: #FF8019;
+  background-color: #F3AA60;
 }
 
 body {
-  background-color: #FF8019;
+  background-color: #F3AA60;
 }
 
 p {
@@ -60,7 +61,7 @@ p {
 }
 
 footer, nav {
-  background-color: #FF8019;
+  background-color: #F3AA60;
 }
 
 .introduccion {
@@ -68,7 +69,15 @@ footer, nav {
 }
 
 .preguntas {
-  background-color: #FF8019;
+  background-color: #F3AA60;
+}
+
+#tabla {
+  width: 95%;
+}
+
+#logo-diseño {
+  width: 3%;
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -1,5 +1,5 @@
 $color-primario: #022A3D;
-$color-secundario: #FF8019;
+$color-secundario: #F3AA60;
 $color-blanco: #FFFFFF;
 $color-enlaces: #022A3D;
 $body-bg:$color-primario;
@@ -72,11 +72,14 @@ footer, nav {
   color: $color-blanco;
 }
 
-// .boton-tabla {
-//   background-color: $color-secundario;
-//   color: $color-primario;
-// }
-
 .preguntas {
   background-color: $color-secundario;
+}
+
+#tabla {
+  width: 95%;
+}
+
+#logo-diseño {
+  width: 3%;
 }
