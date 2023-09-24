@@ -1,0 +1,71 @@
+$color-primario: #022A3D;
+$color-secundario: #FF8019;
+$color-blanco: #FFFFFF;
+$color-enlaces: #022A3D;
+$body-bg:$color-primario;
+
+.texto-titulo {
+  font-family: 'Playfair Display SC', serif;;
+  font-size: 48px;
+  font-weight: bold;
+}
+
+.texto-secundario {
+  font-family: 'Playfair Display', serif;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.texto-parrafo {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 12px;
+}
+
+.texto-footer {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 12px;
+  color: $color-primario;
+}
+
+.texto-cursivo {
+  font-family: 'Montserrat', sans-serif;
+  font-style: italic;
+  font-size: 12px;
+}
+
+a {
+  color: $color-enlaces; 
+  text-decoration: none; 
+}
+
+a:hover {
+  text-decoration: underline; 
+}
+
+nav {
+  background-color: $color-secundario;
+}
+
+body {
+  background-color: $color-secundario;
+}
+
+p {
+  color: $color-blanco;
+}
+.secciones {
+  background-color: $color-primario;
+}
+
+footer, nav {
+  background-color: $color-secundario;
+}
+
+.introduccion {
+  color: $color-blanco;
+}
+
+.boton-tabla {
+  background-color: $color-secundario;
+  color: $color-primario;
+}

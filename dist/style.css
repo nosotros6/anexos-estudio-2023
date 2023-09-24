@@ -1,0 +1,68 @@
+.texto-titulo {
+  font-family: "Playfair Display SC", serif;
+  font-size: 48px;
+  font-weight: bold;
+}
+
+.texto-secundario {
+  font-family: "Playfair Display", serif;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.texto-parrafo {
+  font-family: "Montserrat", sans-serif;
+  font-size: 12px;
+}
+
+.texto-footer {
+  font-family: "Montserrat", sans-serif;
+  font-size: 12px;
+  color: #022A3D;
+}
+
+.texto-cursivo {
+  font-family: "Montserrat", sans-serif;
+  font-style: italic;
+  font-size: 12px;
+}
+
+a {
+  color: #022A3D;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+nav {
+  background-color: #FF8019;
+}
+
+body {
+  background-color: #FF8019;
+}
+
+p {
+  color: #FFFFFF;
+}
+
+.secciones {
+  background-color: #022A3D;
+}
+
+footer, nav {
+  background-color: #FF8019;
+}
+
+.introduccion {
+  color: #FFFFFF;
+}
+
+.boton-tabla {
+  background-color: #FF8019;
+  color: #022A3D;
+}
+
+/*# sourceMappingURL=style.css.map */
