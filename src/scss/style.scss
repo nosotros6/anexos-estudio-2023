@@ -33,6 +33,13 @@ $body-bg:$color-primario;
   font-size: 12px;
 }
 
+.texto-pregunta {
+  font-family: 'Montserrat', sans-serif;
+  font-style: italic;
+  font-size: 14px;
+  color: $color-primario;
+}
+
 a {
   color: $color-enlaces; 
   text-decoration: none; 
@@ -65,7 +72,11 @@ footer, nav {
   color: $color-blanco;
 }
 
-.boton-tabla {
+// .boton-tabla {
+//   background-color: $color-secundario;
+//   color: $color-primario;
+// }
+
+.preguntas {
   background-color: $color-secundario;
-  color: $color-primario;
 }

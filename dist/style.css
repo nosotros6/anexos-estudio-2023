@@ -27,6 +27,13 @@
   font-size: 12px;
 }
 
+.texto-pregunta {
+  font-family: "Montserrat", sans-serif;
+  font-style: italic;
+  font-size: 14px;
+  color: #022A3D;
+}
+
 a {
   color: #022A3D;
   text-decoration: none;
@@ -60,9 +67,8 @@ footer, nav {
   color: #FFFFFF;
 }
 
-.boton-tabla {
+.preguntas {
   background-color: #FF8019;
-  color: #022A3D;
 }
 
 /*# sourceMappingURL=style.css.map */
