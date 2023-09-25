@@ -83,3 +83,50 @@ footer, nav {
 #logo-diseño {
   width: 3%;
 }
+
+.navbar-toggler {
+  color:#F3AA60; 
+}
+#menu-nav {
+ color: #022A3D;
+ font-size:24px ;
+}
+
+// Media query para pantallas más grandes (mayor o igual a 768px)
+@media (max-width: 768px) {
+  .img-container,
+  .img-troppa,
+  .img-mininco,
+  #imgEspecies,
+  #imgSemillas {
+    img {
+      display: none;
+    }
+  }
+  .img-grafico3-encuesta,
+  .img-grafico2-encuesta,
+  .graficos-precios-especies,
+  .graficos-precios-semillas {
+      img {
+        max-width: 80%;
+        height: auto;
+      }
+    }
+}
+
+@media (min-width: 820px) and (max-width: 1050px) {
+  .img-container,
+  .img-troppa,
+  .img-mininco,
+  #imgEspecies,
+  #imgSemillas,
+  .img-grafico3-encuesta,
+  .img-grafico2-encuesta,
+  .graficos-precios-especies,
+  .graficos-precios-semillas {
+      img {
+        max-width: 70%;
+        height: auto;
+      }
+    }
+}
