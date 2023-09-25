@@ -89,7 +89,7 @@ footer, nav {
   font-size: 24px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 899px) {
   .img-container img,
   .img-troppa img,
   .img-mininco img,
@@ -105,10 +105,13 @@ footer, nav {
     height: auto;
   }
 }
-@media (min-width: 820px) and (max-width: 1050px) {
-  .img-container img,
-  .img-troppa img,
+@media (min-width: 900px) and (max-width: 1050px) {
   .img-mininco img,
+  .img-container img {
+    max-width: 90%;
+    height: auto;
+  }
+  .img-troppa img,
   #imgEspecies img,
   #imgSemillas img,
   .img-grafico3-encuesta img,

@@ -93,7 +93,7 @@ footer, nav {
 }
 
 // Media query para pantallas más grandes (mayor o igual a 768px)
-@media (max-width: 768px) {
+@media (max-width: 899px) {
   .img-container,
   .img-troppa,
   .img-mininco,
@@ -114,10 +114,16 @@ footer, nav {
     }
 }
 
-@media (min-width: 820px) and (max-width: 1050px) {
-  .img-container,
-  .img-troppa,
+@media (min-width: 900px) and (max-width: 1050px) {
   .img-mininco,
+  .img-container {
+    img {
+      max-width: 90%;
+      height: auto;
+    }
+  }
+
+  .img-troppa,
   #imgEspecies,
   #imgSemillas,
   .img-grafico3-encuesta,
